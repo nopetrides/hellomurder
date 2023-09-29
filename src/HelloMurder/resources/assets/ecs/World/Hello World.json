@@ -46,8 +46,14 @@
         "$type": "System.Collections.Generic.Dictionary`2[[System.Type, System.Private.CoreLib],[Bang.Components.IComponent, Bang]], System.Private.CoreLib",
         "Murder.Components.PositionComponent, Murder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
           "$type": "Murder.Components.PositionComponent, Murder",
-          "_x": 157.0,
-          "_y": 84.0
+          "_x": 129.0,
+          "_y": 51.0
+        },
+        "Murder.Components.AgentComponent, Murder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+          "$type": "Murder.Components.AgentComponent, Murder",
+          "Speed": 100.0,
+          "Acceleration": 100.0,
+          "Friction": 1.0
         }
       },
       "IsDeactivated": false,
