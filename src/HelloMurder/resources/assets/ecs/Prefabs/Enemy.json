@@ -17,18 +17,30 @@
     "_ignorePrefabChildren": false,
     "_components": {
       "$type": "System.Collections.Generic.Dictionary`2[[System.Type, System.Private.CoreLib],[Bang.Components.IComponent, Bang]], System.Private.CoreLib",
-      "HelloMurder.Components.PlayerComponent, HelloMurder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
-        "$type": "HelloMurder.Components.PlayerComponent, HelloMurder"
+      "Murder.Components.AgentSpriteComponent, Murder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+        "$type": "Murder.Components.AgentSpriteComponent, Murder",
+        "AnimationGuid": "42bcbbae-8565-4f73-4829-4fcf96189115",
+        "TargetSpriteBatch": 0,
+        "YSortOffset": 20,
+        "IdlePrefix": "idle_",
+        "WalkPrefix": "walk_",
+        "Suffix": "e,se,s,se,e,ne,n,ne",
+        "AngleSuffixOffset": 0.0,
+        "FlipWest": true
+      },
+      "Murder.Components.FacingComponent, Murder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
+        "$type": "Murder.Components.FacingComponent, Murder",
+        "Direction": 1
       },
       "HelloMurder.Components.HealthComponent, HelloMurder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": {
         "$type": "HelloMurder.Components.HealthComponent, HelloMurder",
-        "Health": 3,
-        "MaxHealth": 3
+        "Health": 1,
+        "MaxHealth": 1
       }
     },
     "IsDeactivated": false,
     "ActivateWithParent": false,
-    "_guid": "88799670-9872-43bd-a7a4-ab4e6e2653eb",
+    "_guid": "07d70ae2-a266-413e-9ff2-8b5ebcc4fdb0",
     "_name": "CharacterBase Instance"
   },
   "Dimensions": {
@@ -44,6 +56,6 @@
       "Y": 0
     }
   },
-  "Name": "Player",
-  "Guid": "071c48ba-4bc4-4f74-a125-f456299bfa14"
+  "Name": "Enemy",
+  "Guid": "a19b6c11-8d26-4ee8-8efa-ffce0e292774"
 }
